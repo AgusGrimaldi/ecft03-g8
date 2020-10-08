@@ -55,7 +55,6 @@ const actualizarEstado = (e) => {
 
     return (
         <form onSubmit={(event) => handleSubmit(event, email)}>
-          <input placeholder="ingrese su email" value={email.email} type="email"/>
          <Button onSubmit={MailSubmit}>Enviar Mail</Button>
         </form>
     )

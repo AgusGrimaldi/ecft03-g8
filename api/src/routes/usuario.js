@@ -211,7 +211,6 @@ server.get('/:email', (req, res, next) => {
 
 })
 
-
 //------------------------
 //elimina usuario
 
